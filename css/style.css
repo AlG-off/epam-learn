@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(../font/OpenSans.ttf);
+    font-style: normal;
+}
+
+body {
+    font-family: OpenSans, Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.1;
+    color: #474747
+ }
+ main{
+	width: 85%;
+	margin: auto;
+}
+h1{
+	font-weight: 700;
+	font-size: 35pt;
+}
+h2{
+	font-weight: 500;
+	font-size: 18pt;
+}
+h3{
+	font-weight: 500;
+	font-size: 15pt;
+}
+
+.header{
+	position: relative;
+	color: white;
+}
+
+.header__container{
+	height: 560px;
+	background: black url(../img/header_banner.jpg) center no-repeat;
+	text-align: center;
+}
+
+.header .slide{
+	position: absolute;
+	left: 0; top: 80px; right: 0;
+	width: 80%;
+	height: 250px;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+.button{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: 2px solid #75B1CC;
+	border-radius: 4px;
+	color: #75B1CC;
+	text-align: center;
+	text-decoration: none;
+}
+.button--big{
+	position: relative;
+  top: 100px;
+	margin-top: 20px;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 1.2rem;
+}
+
+.header .navigation{
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	width:70%;
+	margin: auto;
+	padding: 20px 0 20px 0;
+	border-bottom:1px solid white;
+
+}
+.header .navigation .logo{
+	float:left;
+}
+.header .navigation .menu{
+	float:right;
+}
+.menu__item{
+	display: inline-block;
+	margin: 10px 30px;
+
+}
+
+.menu__links{
+	text-decoration: none;
+	color: white;
+}
+
+.section-one, 
+.section-features,
+.section-project,
+.section-testimonials {
+	margin-top: 50px;
+	text-align: center;
+}
+.section-one .block{
+	width: 300px;
+	height: 250px;
+	margin: 80px 0 0 50px;
+	display: inline-block;
+	position: relative;
+	border:1px solid gray;
+	border-radius: 3px;
+	background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain;
+  text-align: center;
+}
+.section-one .block--image-1{
+	margin-left: 0;
+	background-image: url('../img/sec1_img (1).jpg');
+}
+.section-one .block--image-2{
+	background-image: url('../img/sec1_img (2).jpg');
+}
+.section-one .block--image-3{
+	background-image: url('../img/sec1_img (3).jpg');
+}
+.section-one .block__header{
+	margin-top: 120px;
+	padding: 15px 0;
+}
+.section-one .block__icon{
+	height: 80px;
+	width: 80px;
+	left:0;
+	right: 0;
+	top:0;
+	position: absolute;
+	margin: -40px auto 0 auto;
+	border: 10px solid white;
+	border-radius: 50%;
+	background-color: #75B1CC;
+}
+.section-one__text,
+.text-comment{
+	padding: 0 200px;
+}
+
+.section-features__item{
+	padding: 30px 0 30px 0;
+	text-align: justify;
+}
+.section-features__item:first-of-type{
+	border-bottom: 1px solid gray;
+}
+.section-features__item h3{
+	margin-top: 20px;
+}
+.section-features__item p{
+	margin-top: 20px;	
+	line-height: 1.3;
+}
+.section-features__image{
+	height: auto;
+	max-width: 100%;
+}
+.section-features__image--position-left{
+	float:left;
+	margin-right: 40px;
+}
+.section-features__image--position-right{
+	float:right;
+	margin-left: 40px;
+}
+
+.section-features__header,
+.section-project__header,
+.section-testimonials__header{
+	padding: 15px 0;
+	text-align: center;
+}
+
+.clearfix:after {
+  content: "."; 
+  display: block;
+  clear: both;
+  visibility: hidden; 
+  height: 0;
+}
+
+.section-project__item{
+	width: auto;
+	height: auto;
+	margin-left: 10px;
+	padding-top: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+.section-testimonials img{
+	margin-top: 30px;
+}
+.carusel-comments{
+	margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+}
+.point{
+	display: inline-block;
+	width: 10px;
+	height:10px;
+	margin: 0 5px;
+	border-radius: 50%;
+	background-color: #BCBCBC;
+}
+.point--active{
+	background-color: #75B1CC;
+}
+.point--big{
+	width: 30px;
+	height: 30px;
+	background-color:#2A414C;
+}
+.section-footer{
+	margin-top: 50px;
+	background-color: #2A414C;
+}
+.section-footer__top{
+
+}
+.section-footer__bottom{
+	padding: 20px;
+	background-color: #1E2D34;
+}
+.copyright{
+	width: 85%;
+	margin: 0 auto;
+	color:white;
+}
+
+.copyright__info{
+	float:left;
+}
+.copyright__contact{
+	float:right;
+}
