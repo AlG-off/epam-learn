@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<title>Webworld</title>
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/icon.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<header class="hdr">
@@ -29,19 +29,19 @@
 
 			<div class="hdr__carousel">
 				<div class="carousel">
-					<button class="carousel__button" type="button">
+					<button class="carousel__btn" type="button">
 						<i class="icon-chevron-with-circle-left"></i>
 					</button>
 					<div class="carousel__slide">
 						<h1 class="carousel__slide-hdr">Clean, flat & polished design </h1>
 		       	<h2 class="carousel__slide-pref">Proin facilisis aliquam nunc quis varius.</h2>
 					</div>
-				 	<button class="carousel__button" type="button">
+				 	<button class="carousel__btn" type="button">
 				 		<i class="icon-chevron-with-circle-right"></i>
 				 	</button>
 	      </div>
-				<div class="hdr_button-group">
-					<button class="button-show button-show--big-white" type="button">show more</button>
+				<div class="hdr_btn-group">
+					<button class="btn-show btn-show--big" type="button">show more</button>
 	      	<div class="point-group">
 	      		<div class="point-group__wrap-point">
 	      		 	<div class="point-group__point"></div>
@@ -90,6 +90,12 @@
 				</div>
 			</div>
 		</section>
+		<div class="separator">
+			<hr>
+			<div class="separator__icon">
+				<i class="separator__icon-img icon-check_circle"></i>
+			</div>
+		</div>
 		<section class="section">
 			<h2 class='section__hdr'>OUR <strong>FEATURES</strong></h2>
 			
@@ -97,16 +103,22 @@
 				<img class="item__img"  src="img/sec2_img_1.png" alt="Mobile" >
 				<h3 class="item__title">Lorem Ipsum</h3>
 				<p class="item__contents">There are many variations of passages of Lorem Ipsum available are many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum available many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsummany variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsummany variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum</p>
-				<button class="button-show">read more</button>
+				<button class="btn-show">read more</button>
 			</div>
 			
 			<div class="section__item clearfix">
 				<img class="item__img item__img--pos-right" src="img/sec2_img_2.png" alt="Camera">
 				<h3 class="item__title">A flat Camera</h3>
 				<p class="item__contents">There are many variations of passages of Lorem Ipsum available are many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum available many variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsummany variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsummany variations of passages of Lorem Ipsum availableare many variations of passages of Lorem Ipsum</p>
-				<button class="button-show">read more</button>
+				<button class="btn-show">read more</button>
 			</div>
 		</section>
+		<div class="separator">
+			<hr>
+			<div class="separator__icon">
+				<i class="separator__icon-img icon-trophy"></i>
+			</div>
+		</div>
 		<section class="section">
 			<h2 class='section__hdr'>OUR LATEST <strong>PROJECT</strong></h2>
 			<p class="section__pref">Lorem Ipsum available are many variations of passages</p>
@@ -133,7 +145,12 @@
 				</div>
 			</div>
 		</section>
-
+				<div class="separator">
+			<hr>
+			<div class="separator__icon">
+				<i class="separator__icon-img icon-typing"></i>
+			</div>
+		</div>
 		<section class="section">
 			<h2 class='section__hdr'>CLIENT <strong>TESTIMONIALS</strong></h2>
 			<div class="carousel">
@@ -149,10 +166,7 @@
    		 	<div class="point-group__point point-group__point--gray"></div>
    		 	<div class="point-group__point point-group__point--gray"></div>
    		 	<div class="point-group__point point-group__point--gray"></div>
-			</div>
-
-				
-				
+			</div>				
 		</section>
 	</main>
 
@@ -175,15 +189,19 @@
 		      <p><i class="icon-phone ftr__icon"></i>89-876-543-21</p>
 	 	 		</div>
 	 	 		<div class="block-group__block block-group__block--width">
-		      <h2 class="block__hdr">LATEST TWEETS</h2>
-		      <p><i class="icon-twitter ftr__icon"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
-		      <p><i class="icon-twitter ftr__icon"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
+	 	 			<h2 class="block__hdr">LATEST TWEETS</h2>
+			      <p class="tweet"><i class="icon-twitter ftr__icon tweet__icon"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+						<span class="tweet__send-time">1 Hour Ago</span>
+			      </p>
+			      <p class="tweet"><i class="icon-twitter ftr__icon tweet__icon"></i>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+			      <span class="tweet__send-time">1 Hour Ago</span>
+			      </p>
 	 	 		</div>
 	 	 		<div class="block-group__block block-group__block--width">
 		      <h2 class="block__hdr">NEWS LETTER</h2>
 		      <p>Type your email address below and recive our daily news letter for free</p>
-		      <form action="#" method="get" accept-charset="utf-8">
-		      	<input type="text"><button type="submit">GO</button>
+		      <form name="search" action="#" method="get" accept-charset="utf-8">
+		      	<input class="search-field" placeholder="Email Address" type="text"><button class="search-btn" type="submit">GO</button>
 		      </form>
 	 	 		</div>
 	 	 	</div>
@@ -195,9 +213,15 @@
 	 					<p>©2016 All rights reserved</p>
 	 				</div>
 	 				<div class="block-group__block">
-	 					<div class="ftr-bottom__icon"></div>	
-	 					<div class="ftr-bottom__icon"></div>
-	 					<div class="ftr-bottom__icon"></div>
+		 					<div class="ftr-bottom__icon">
+		 						<i class="ftr__icon-logo icon-twitter"></i>
+		 					</div>	
+		 					<div class="ftr-bottom__icon">
+		 						<i class="ftr__icon-logo icon-vk"></i>
+		 					</div>
+		 					<div class="ftr-bottom__icon">
+		 						<i class="ftr__icon-logo icon-linkedin"></i>
+		 					</div>
 	 				</div>
 	 			</div>
 	 		</div>
@@ -205,3 +229,6 @@
 	</footer>
 </body>
 </html>
+<!--
+
+-->
