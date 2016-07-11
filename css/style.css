@@ -35,8 +35,8 @@ h3{
 }
 .hdr__nav{
 	width: 90%;
-	margin: 0 auto;
 	padding: 20px 0;
+	margin: 0 auto;
 	border-bottom: 1px solid #ffffff;
 }
 .hdr__menu{
@@ -58,11 +58,11 @@ h3{
 	color: white;
 }
 .hdr__carousel{
-	height: 300px;
-	padding-top: 30px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	height: 300px;
+	padding-top: 30px;
 }
 .carousel{
 	display: flex;
@@ -88,11 +88,11 @@ h3{
 	color: #ffffff;
 }
 .btn-show{
-	background: none;
 	padding: 7px 14px;
 	margin-bottom: 20px;
 	border: 2px solid #75B1CC;
 	border-radius: 6px;
+	background: none;
 	text-transform: uppercase;
 	font-size: 10pt;
 	font-weight: 600;
@@ -100,18 +100,20 @@ h3{
 	cursor: pointer;
 }
 .btn-show--big{
-		padding: 14px 28px;
+	padding: 14px 28px;
 }
 .btn-show:hover{
-	background-color: #75B1CC;
 	border: 2px solid #75B1CC;
+	background-color: #75B1CC;
 	color: #ffffff;
 }
 .hdr_btn-group{
 	position: absolute;
-	left: 0; right: 0; bottom: 0;
-	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
 	padding: 10px 0;
+	margin: 0 auto;
 	text-align: center;
 }
 .point-group{
@@ -132,10 +134,10 @@ h3{
 	border:2px solid #ffffff;
 }
 .point-group__point{
+	display: inline-block;
 	width: 7px;
 	height: 7px;
 	margin: 0 5px;
-	display: inline-block;
 	border-radius: 50%;
 	background: #ffffff;
 	cursor: pointer;
@@ -205,8 +207,8 @@ h3{
 	border: 10px solid #ffffff;
 	border-radius: 50%;
 	background-color: #75B1CC;
-	font-size: 1.5rem;
 	color: #ffffff;
+	font-size: 1.5rem;
 	line-height: 60px;
 }
 .item__img{
@@ -226,8 +228,8 @@ h3{
 .ftr{
 	margin-top: 30px;
 	padding-top: 1px;
-	color: #ffffff;
 	background-color: #2A414C;
+	color: #ffffff;
 }
 .ftr-bottom{
 	padding: 1px 0;
@@ -242,8 +244,8 @@ h3{
 	margin-top: -10px;
 	border-radius: 50%;
 	background-color: #2A414C;
-	cursor: pointer;
 	text-align: center;
+	cursor: pointer;
 }
 .ftr-bottom__icon:hover{
 	background-color: #75B1CC;
@@ -290,9 +292,9 @@ h3{
 .clearfix:after {
 	content: "."; 
 	display: block;
+	height: 0;
 	clear: both;
 	visibility: hidden; 
-	height: 0;
 }
 .separator{
 	position: relative;
@@ -327,8 +329,8 @@ h3{
 }
 .separator__icon-img{
 	background-color: #ffffff;
-	font-size: 2rem;
 	color: #75B1CC;
+	font-size: 2rem;
 }
 .tweet{
 	position: relative;
